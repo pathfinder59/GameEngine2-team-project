@@ -60,13 +60,16 @@
     <Compile Include="Assets\KPU\Controllers\SpawnController.cs" />
     <Compile Include="Assets\Scenes\KindomRun\Scripts\Ui\NavigationalCanvas.cs" />
     <Compile Include="Assets\KPU\Manager\EventManager.cs" />
-    <Compile Include="Assets\Scenes\KindomRun\Scripts\NavigationalCanvasManager.cs" />
+    <Compile Include="Assets\KPU\Manager\NavigationalCanvasManager.cs" />
     <Compile Include="Assets\KPU\Manager\ObjectPoolManager.cs" />
     <Compile Include="Assets\KPU\Manager\GameScoreManager.cs" />
     <Compile Include="Assets\Scenes\KindomRun\Scripts\Ui\StartCanvasUi.cs" />
     <Compile Include="Assets\KPU\Manager\GameManager.cs" />
-    <Compile Include="Assets\KPU\State.cs" />
     <Compile Include="Assets\Scenes\KindomRun\Scripts\Objects\Field.cs" />
+    <Compile Include="Assets\KPU\State.cs" />
+    <Compile Include="Assets\Scenes\KindomRun\Scripts\Ui\PauseCanvasUi.cs" />
+    <Compile Include="Assets\Scenes\KindomRun\Scripts\Ui\PlayingCanvasUi.cs" />
+    <Compile Include="Assets\Scenes\KindomRun\Scripts\Ui\EndCanvasUi.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
