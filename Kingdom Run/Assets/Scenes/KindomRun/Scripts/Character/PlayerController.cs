@@ -9,12 +9,14 @@ namespace Assets.Scenes.KindomRun.Scripts.Character
         private PlayerInputAction _inputAction;
         private Vector2 _inputVector;
         private CharacterController _characterController;
+        private Animator _animator;
         
         [SerializeField] private float characterMoveSpeed = 10f;
         [SerializeField] private float characterRotateSpeed = 5f;
         private void Awake()
         {
             _characterController = GetComponent<CharacterController>();
+            _animator = GetComponentInChildren<Animator>();
         }
         
         private void OnEnable()
@@ -41,6 +43,9 @@ namespace Assets.Scenes.KindomRun.Scripts.Character
                     Quaternion.Lerp(transform.rotation, rotate, Time.deltaTime * characterRotateSpeed);
                 _characterController.Move(transform.forward * Time.deltaTime * characterMoveSpeed);
             }
+            
+            _animator.SetFloat("Speed", 
+                Mathf.Max(Mathf.Abs(_inputVector.x), Mathf.Abs(_inputVector.y)));
         }
         
         public void OnMove(InputAction.CallbackContext context)
