@@ -27,7 +27,8 @@ namespace Scene.Ui
         private void ShowEndCanvas(object obj)
         {
             GameManager.Instance.SetState(KPU.State.GameEnded);
-            NavigationalCanvasManager.Instance.ShowCanvas("End");           
+            if(GameManager.Instance.State == KPU.State.Playing)
+                NavigationalCanvasManager.Instance.ShowCanvas("End");           
         }
     }
 
