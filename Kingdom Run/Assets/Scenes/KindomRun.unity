@@ -1354,6 +1354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2fa0e7971f21fd4993fd8354322f5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpoints: {fileID: 1782164185}
 --- !u!1 &1105959955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1929,6 +1930,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1782164185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7881483942177775574, guid: f385bc1940ec0964aa4266d4b0bbe0a9, type: 3}
+  m_PrefabInstance: {fileID: 7881483941960526565}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1827786936
 GameObject:
   m_ObjectHideFlags: 0
