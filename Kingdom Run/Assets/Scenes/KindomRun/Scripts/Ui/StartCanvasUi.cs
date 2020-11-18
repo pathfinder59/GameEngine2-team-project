@@ -21,6 +21,7 @@ namespace Scene.Ui
         private void SpawnPlayingScene(object obj)
         {
             ObjectPoolManager.Instance.Spawn("Field");
+            ObjectPoolManager.Instance.Spawn("Barriers");
         }
     }
 }
