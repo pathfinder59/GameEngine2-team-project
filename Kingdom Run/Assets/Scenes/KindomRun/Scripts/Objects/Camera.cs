@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using KPU.Manager;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -12,6 +13,7 @@ public class Camera : MonoBehaviour
     //[SerializeField] List<GameObject> checkpointList;
     void Start()
     {
+        EventManager.On("game_ended", ResetProperty);
         nCheckPoint = checkpoints.transform.childCount;
         currentCheckPoint = 0;
 
@@ -21,7 +23,9 @@ public class Camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentCheckPoint < nCheckPoint)
+        if (GameManager.Instance.State != KPU.State.Playing)
+            return;
+        if (currentCheckPoint < nCheckPoint)
         {
             Transform target = checkpoints.transform.GetChild(currentCheckPoint);
 
@@ -30,5 +34,10 @@ public class Camera : MonoBehaviour
             if (transform.position == target.position)
                 currentCheckPoint++;
         }
+    }
+    private void ResetProperty(object obj)
+    {
+        transform.position = checkpoints.transform.GetChild(0).transform.position;
+        currentCheckPoint = 0;
     }
 }

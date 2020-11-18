@@ -30,7 +30,8 @@ namespace Scene.Ui
                     var naviagationalCanvas = _navigationalCanvases[i];
                     var canvasComponent = naviagationalCanvas.GetComponent<Canvas>();
 
-                    naviagationalCanvas.gameObject.SetActive(true);
+                    if(foundedCanvas != naviagationalCanvas)
+                        naviagationalCanvas.gameObject.SetActive(true);
                     canvasComponent.overrideSorting = true;
                     canvasComponent.sortingOrder = i;
                     naviagationalCanvas.gameObject.SetActive(false);

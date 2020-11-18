@@ -18,6 +18,7 @@ namespace Assets.Scenes.KindomRun.Scripts.Hurdle
             _animator = GetComponentInChildren<Animator>();
         }
 
+
         // Update is called once per frame
         void Update()
         {

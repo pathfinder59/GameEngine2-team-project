@@ -1,18 +1,31 @@
-﻿using KPU.Manager;
+﻿using Assets.Scenes.KindomRun.Scripts.Character;
+using KPU.Manager;
+using Scenes.AI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Scene.Ui
 {
     public class PlayingCanvasUi : MonoBehaviour
     {
+        [SerializeField] private Slider slider;
+        [SerializeField] private Transform playerPos;
+        [SerializeField] private Transform enemyPos;
+        private Player player;
         // Start is called before the first frame update
         void Start()
         {
             EventManager.On("game_ended", ShowEndCanvas);
+            slider.maxValue = player.Stat.MaxHp;
         }
-
+        private void OnEnable()
+        {
+            player = ObjectPoolManager.Instance.Spawn("Player").GetComponent<Player>();
+            player.gameObject.transform.position = playerPos.position;
+            player.gameObject.transform.rotation = playerPos.rotation;
+        }
         // Update is called once per frame
         void Update()
         {
@@ -22,13 +35,14 @@ namespace Scene.Ui
                 NavigationalCanvasManager.Instance.ShowCanvas("Pause");
                 EventManager.Emit("game_paused");
             }
+            slider.value = player.Stat.Hp;
         }
 
         private void ShowEndCanvas(object obj)
         {
             GameManager.Instance.SetState(KPU.State.GameEnded);
-            if(GameManager.Instance.State == KPU.State.Playing)
-                NavigationalCanvasManager.Instance.ShowCanvas("End");           
+            NavigationalCanvasManager.Instance.ShowCanvas("End");
+
         }
     }
 
