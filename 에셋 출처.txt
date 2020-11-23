@@ -1,2 +1,6 @@
 캐릭터 : https://skfb.ly/69QOZ
 배경 : https://assetstore.unity.com/packages/3d/environments/historic/polylised-medieval-desert-city-94557
+
+포탈 파티클 이미지
+- http://www.pngall.com/portal-png/download/33532
+- https://denisrizov.com/2016/08/29/how-to-create-a-fancy-portal-effect-in-unity/
