@@ -46,9 +46,12 @@
 
         private void Update()
         {
-            
+
         }
 
+        private void OnTriggerStay(Collider other)
+        {
+        }
         private void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.CompareTag("Barrier"))

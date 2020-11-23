@@ -1,5 +1,433 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &8206423161479523601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516406350180413402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.966858, y: 5.8600006, z: 8.179977}
+  m_Center: {x: -0.00000036299278, y: -0.00000024378338, z: 4.090011}
+--- !u!65 &4633233007418808359
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516406351103463702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.966857, y: 5.8599997, z: 8.179976}
+  m_Center: {x: -0.00000011920929, y: -1.6940659e-21, z: 4.090011}
+--- !u!65 &1064193743247408806
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516425234615532142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20.825773, y: 20.979761, z: 20.239767}
+  m_Center: {x: 0, y: 0, z: 10.119964}
+--- !u!65 &214885175703651731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516425234980730188}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20.825773, y: 20.979761, z: 20.239767}
+  m_Center: {x: 0, y: 0, z: 10.119964}
+--- !u!65 &8699439663230166287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516427798950828927}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.249597, y: 17.309458, z: 10.66598}
+  m_Center: {x: 0, y: 0, z: 5.2869363}
+--- !u!65 &60425542962029856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516439431315457590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.549994, y: 18.560247, z: 18.962326}
+  m_Center: {x: -0.0000023841862, y: 6.7762636e-20, z: 9.359095}
+--- !u!65 &9115227585773844923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516459895121904404}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.141374, y: 15.476145, z: 16.142443}
+  m_Center: {x: -0.00000022971457, y: -0.00000050182064, z: 8.046013}
+--- !u!64 &6983470489048266588
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516459896253818659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 617ceb975cd5d8243b2b3ad62359e900, type: 3}
+--- !u!65 &5085745354643144682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516459896779553113}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.141378, y: 15.4761505, z: 16.142447}
+  m_Center: {x: -0.00000072074096, y: -0.0000009591595, z: 8.046015}
+--- !u!65 &5041203150077108670
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516462941441385586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.56683, y: 3.2889767, z: 8.000004}
+  m_Center: {x: 0.0000004768612, y: -0.00000028187725, z: 4.000001}
+--- !u!64 &4757289491486586886
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516499833181454662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 704b46e13c7229840ae5ff36dc3a6a75, type: 3}
+--- !u!65 &3638984458472276194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516513210283889534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.609516, y: 5.107158, z: 10.536133}
+  m_Center: {x: -0.00000062800166, y: -0.00000086642194, z: 5.2680655}
+--- !u!65 &4779597554199254625
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516516538548197336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.192877, y: 7.839303, z: 20.167307}
+  m_Center: {x: 0.0000002384203, y: 1.7195631e-12, z: 10.083625}
+--- !u!64 &5024439346989582507
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516527869191013882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 2cb6cb1dbe2083b47b58febcf216333d, type: 3}
+--- !u!65 &1355962515333438010
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516598997739402964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.148394, y: 15.720959, z: 12.03896}
+  m_Center: {x: -7.397028e-15, y: 0, z: 6.01948}
+--- !u!64 &7691022201818262546
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516636046370393169}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: a641aae5de248b046a23e16e67d2010a, type: 3}
+--- !u!64 &5285710852699624174
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516636046473152277}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: a641aae5de248b046a23e16e67d2010a, type: 3}
+--- !u!64 &916494284113474905
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516814963448283525}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: aaf931e7154e74a4f850ea7775140470, type: 3}
+--- !u!65 &4394308469440833474
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516856703072588107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.602812, y: 3.4759374, z: 8.141298}
+  m_Center: {x: -0.00000070457224, y: -0.00000029445783, z: 4.070648}
+--- !u!65 &7902579421924389771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516868835251837377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.316719, y: 7.2250013, z: 7.2105956}
+  m_Center: {x: 0.00000035964212, y: -2.4413156e-11, z: 3.605296}
+--- !u!64 &6048745611049833584
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517204591110164433}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 53f5c35ca2434cf4ba2f1bc5b0a8384f, type: 3}
+--- !u!64 &2894762532303600718
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517204940981999051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 28fb7df20b8c72e419b60eeeeaf60b37, type: 3}
+--- !u!64 &1685794143974447589
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517204942601593029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 28fb7df20b8c72e419b60eeeeaf60b37, type: 3}
+--- !u!64 &1553554926484179344
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517236050631278045}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: c725e79c6a634254983a6ebf8bb74303, type: 3}
+--- !u!64 &3492653294245743389
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517266611876182100}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d31af07f71d803942be79ef21416dc3d, type: 3}
+--- !u!64 &7460619524363646513
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517286596047769022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 93fc94d2128f47b499fdaff7fe193bd8, type: 3}
+--- !u!65 &3718841536524545999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517291887591555211}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.513603, y: 15.6447525, z: 30.454588}
+  m_Center: {x: -0.0000034722927, y: -0.0000034081522, z: 15.227334}
+--- !u!65 &4489857328147699730
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517291887593449774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.513599, y: 15.64475, z: 30.454578}
+  m_Center: {x: -0.000000715255, y: -0.000005147343, z: 15.22733}
+--- !u!65 &235602351282796918
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517306239301840464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 321.86658, y: 520.25165, z: 0}
+  m_Center: {x: -21.18435, y: -3.1705024, z: 0}
+--- !u!65 &4727933258991814385
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517318692085885264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.4149237, y: 5.8167315, z: 21.214802}
+  m_Center: {x: 0, y: -0.000000834465, z: 10.607401}
+--- !u!65 &6967562923021362917
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517320967585708494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.458071, y: 8.443489, z: 9.037917}
+  m_Center: {x: 0.00000500679, y: 0.00000023841864, z: 4.5189977}
+--- !u!65 &6524772957092665449
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517336430239408865}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.3674593, y: 5.364164, z: 9.010985}
+  m_Center: {x: -0.0000010273332, y: -0.0000028154718, z: 4.4943204}
 --- !u!1 &8517800489602963682
 GameObject:
   m_ObjectHideFlags: 0
@@ -9,7 +437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8517800489602963681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Probs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +494,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8517800491086144711}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Buildings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,7 +646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8517800491317284756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Castle Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +691,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8517800491419132399}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Natures
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8517800491432101505}
   - component: {fileID: 2777839045730950798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Environments
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -362,6 +790,116 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14ef0ac09b52b1479c02cece91ebc8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &1232766432796101408
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518143271255430071}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 22066e81b661b45438c7cf9f53e41dcf, type: 3}
+--- !u!64 &7745556632007260181
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518154262902261406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: a410cb53efea0fb43a0bb92881d45dbb, type: 3}
+--- !u!64 &6653704052071920247
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518198330451251206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6613430883563694a83a5815635299c6, type: 3}
+--- !u!64 &4369866789898143681
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518198331929800490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6613430883563694a83a5815635299c6, type: 3}
+--- !u!65 &4238012467550978613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518236641902687433}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.871414, y: 7.466718, z: 10.962563}
+  m_Center: {x: 0.0000011920929, y: -0.0000011920931, z: 5.4812126}
+--- !u!64 &7691060379882547490
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518236642784426732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 18a7da1eb0e01454ab1f3199ad6623e2, type: 3}
+--- !u!64 &8100443305005069372
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518236643197470840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 18a7da1eb0e01454ab1f3199ad6623e2, type: 3}
+--- !u!65 &5401426603133887848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518265966452161407}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.894108, y: 15.656408, z: 18.300035}
+  m_Center: {x: 0.0000019073481, y: -0.000007256871, z: 9.150016}
 --- !u!1001 &570602940508185057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -372,6 +910,10 @@ PrefabInstance:
     - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_Name
       value: pine_d (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4065334524731742, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -447,6 +989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_d (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4065334524731742, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.382867
@@ -520,6 +1066,10 @@ PrefabInstance:
     - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_Name
       value: pine_a (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -595,6 +1145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_a (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.473504
@@ -639,18 +1193,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -270
       objectReference: {fileID: 0}
-    - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 36.682163
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 36.682163
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 36.682167
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
 --- !u!4 &2136463341333497243 stripped
@@ -668,6 +1210,10 @@ PrefabInstance:
     - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_Name
       value: pine_c (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4901453242022314, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -743,6 +1289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_d (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4065334524731742, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.382967
@@ -816,6 +1366,10 @@ PrefabInstance:
     - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_Name
       value: pine_c (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4901453242022314, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -891,6 +1445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_a (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0177
@@ -964,6 +1522,10 @@ PrefabInstance:
     - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_Name
       value: pine_a (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1039,6 +1601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_c (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4901453242022314, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.191045
@@ -1112,6 +1678,10 @@ PrefabInstance:
     - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_Name
       value: pine_c (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4901453242022314, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1187,6 +1757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_a (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.361616
@@ -1260,6 +1834,10 @@ PrefabInstance:
     - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_Name
       value: pine_c (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4901453242022314, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1335,6 +1913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: street_green_belt_a (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1789806267298236, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4493523499585350, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.343642
@@ -1408,6 +1990,10 @@ PrefabInstance:
     - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_Name
       value: pine_c (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4901453242022314, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1483,6 +2069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_d (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4065334524731742, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.446997
@@ -1556,6 +2146,10 @@ PrefabInstance:
     - target: {fileID: 1789806267298236, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
       propertyPath: m_Name
       value: street_green_belt_a (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789806267298236, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4493523499585350, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1631,6 +2225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_d (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4065334524731742, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.93236
@@ -1704,6 +2302,10 @@ PrefabInstance:
     - target: {fileID: 1789806267298236, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
       propertyPath: m_Name
       value: street_green_belt_a (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789806267298236, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4493523499585350, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1779,6 +2381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4411153278471130, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.207
@@ -1841,6 +2447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_36_b
       objectReference: {fileID: 0}
+    - target: {fileID: 1330849665535216, guid: aebefcf320a8e1e47ae980463ac7e0e2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4384415686525662, guid: aebefcf320a8e1e47ae980463ac7e0e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -33.64
@@ -1892,6 +2502,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4384415686525662, guid: aebefcf320a8e1e47ae980463ac7e0e2, type: 3}
   m_PrefabInstance: {fileID: 8517800489563954619}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516856703072588107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1330849665535216, guid: aebefcf320a8e1e47ae980463ac7e0e2, type: 3}
+  m_PrefabInstance: {fileID: 8517800489563954619}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800489568679735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1902,6 +2517,10 @@ PrefabInstance:
     - target: {fileID: 1818520758701248, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
       propertyPath: m_Name
       value: fence_stick (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818520758701248, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4874726471669478, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1965,6 +2584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_36_a
       objectReference: {fileID: 0}
+    - target: {fileID: 1622358665942894, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4609283677507300, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.29
@@ -2011,6 +2634,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
+--- !u!1 &8516462941441385586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1622358665942894, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
+  m_PrefabInstance: {fileID: 8517800489572578076}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8513261750607117816 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4609283677507300, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
@@ -2026,6 +2654,10 @@ PrefabInstance:
     - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_Name
       value: citadel_wall_a (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4738364704643662, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2089,6 +2721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1446531704120262, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4031798082164398, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 44.18
@@ -2150,6 +2786,10 @@ PrefabInstance:
     - target: {fileID: 1446531704120262, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
       propertyPath: m_Name
       value: civilian_house_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446531704120262, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4031798082164398, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2213,6 +2853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1008745058765346, guid: f0894d3a3479c634485553b098c987cb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4879555013656554, guid: f0894d3a3479c634485553b098c987cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.06
@@ -2275,6 +2919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence_stick (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1818520758701248, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4874726471669478, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.032
@@ -2336,6 +2984,10 @@ PrefabInstance:
     - target: {fileID: 1789806267298236, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
       propertyPath: m_Name
       value: street_green_belt_a (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789806267298236, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4493523499585350, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2411,6 +3063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_30_e (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1115088949518976, guid: a7635237256fa0c49ab389f128e1ba27, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4478025086236128, guid: a7635237256fa0c49ab389f128e1ba27, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.452145
@@ -2457,6 +3113,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7635237256fa0c49ab389f128e1ba27, type: 3}
+--- !u!1 &8518198331929800490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1115088949518976, guid: a7635237256fa0c49ab389f128e1ba27, type: 3}
+  m_PrefabInstance: {fileID: 8517800489658256810}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8519305091553294410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4478025086236128, guid: a7635237256fa0c49ab389f128e1ba27, type: 3}
@@ -2472,6 +3133,10 @@ PrefabInstance:
     - target: {fileID: 1828137678879142, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
       propertyPath: m_Name
       value: civilian_house_15 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828137678879142, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4379896934756086, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2535,6 +3200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_wall_a (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4738364704643662, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -57.41622
@@ -2597,6 +3266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_gate
       objectReference: {fileID: 0}
+    - target: {fileID: 1827498319948078, guid: 2c419a4d68bda8948a41d26abd8021e9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4782824878747570, guid: 2c419a4d68bda8948a41d26abd8021e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.776245
@@ -2643,6 +3316,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c419a4d68bda8948a41d26abd8021e9, type: 3}
+--- !u!1 &8517204591110164433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1827498319948078, guid: 2c419a4d68bda8948a41d26abd8021e9, type: 3}
+  m_PrefabInstance: {fileID: 8517800489700730623}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8513408164914858317 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4782824878747570, guid: 2c419a4d68bda8948a41d26abd8021e9, type: 3}
@@ -2658,6 +3336,10 @@ PrefabInstance:
     - target: {fileID: 1446531704120262, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
       propertyPath: m_Name
       value: civilian_house_06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446531704120262, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4031798082164398, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2721,6 +3403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1210640465679106, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4801404025615432, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.267
@@ -2782,6 +3468,10 @@ PrefabInstance:
     - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_Name
       value: pine_a (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2857,6 +3547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_31_c
       objectReference: {fileID: 0}
+    - target: {fileID: 1064628415274188, guid: fe5f6dadf632f254c8bb93da3fc1cd3c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4438314433760626, guid: fe5f6dadf632f254c8bb93da3fc1cd3c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.82
@@ -2908,6 +3602,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4438314433760626, guid: fe5f6dadf632f254c8bb93da3fc1cd3c, type: 3}
   m_PrefabInstance: {fileID: 8517800489756315515}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8518143271255430071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1064628415274188, guid: fe5f6dadf632f254c8bb93da3fc1cd3c, type: 3}
+  m_PrefabInstance: {fileID: 8517800489756315515}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800489764166970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2918,6 +3617,10 @@ PrefabInstance:
     - target: {fileID: 1747547292369272, guid: 56d66c6ced3c8cc42ac1089cc3729b50, type: 3}
       propertyPath: m_Name
       value: civilian_house_30_f (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747547292369272, guid: 56d66c6ced3c8cc42ac1089cc3729b50, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4031165061106790, guid: 56d66c6ced3c8cc42ac1089cc3729b50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2981,6 +3684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_11
       objectReference: {fileID: 0}
+    - target: {fileID: 1448931260341668, guid: 914008923a1f33345b91f7350da887df, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4396813953502068, guid: 914008923a1f33345b91f7350da887df, type: 3}
       propertyPath: m_LocalPosition.x
       value: -43.17
@@ -3032,6 +3739,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4396813953502068, guid: 914008923a1f33345b91f7350da887df, type: 3}
   m_PrefabInstance: {fileID: 8517800489799215336}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516425234980730188 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1448931260341668, guid: 914008923a1f33345b91f7350da887df, type: 3}
+  m_PrefabInstance: {fileID: 8517800489799215336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800489813927324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3042,6 +3754,10 @@ PrefabInstance:
     - target: {fileID: 1446531704120262, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
       propertyPath: m_Name
       value: civilian_house_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446531704120262, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4031798082164398, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3105,6 +3821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_wall_b (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4588604808797830, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_LocalPosition.x
       value: -97.806175
@@ -3167,6 +3887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_15
       objectReference: {fileID: 0}
+    - target: {fileID: 1828137678879142, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4379896934756086, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.1
@@ -3213,6 +3937,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
+--- !u!1 &8517204942601593029 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1828137678879142, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
+  m_PrefabInstance: {fileID: 8517800489864862051}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8519333939636729749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4379896934756086, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
@@ -3228,6 +3957,10 @@ PrefabInstance:
     - target: {fileID: 1930925916971648, guid: db4322200845b394f8bc772ae2abb158, type: 3}
       propertyPath: m_Name
       value: civilian_house_28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930925916971648, guid: db4322200845b394f8bc772ae2abb158, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4396410844167640, guid: db4322200845b394f8bc772ae2abb158, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3291,6 +4024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_37_g
       objectReference: {fileID: 0}
+    - target: {fileID: 1109502644882432, guid: 21735a94dcd39be409a7db4ca33af760, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558289655352502, guid: 21735a94dcd39be409a7db4ca33af760, type: 3}
       propertyPath: m_LocalPosition.x
       value: -53.6
@@ -3352,6 +4089,10 @@ PrefabInstance:
     - target: {fileID: 1622358665942894, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
       propertyPath: m_Name
       value: civilian_house_36_a (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622358665942894, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4609283677507300, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3415,6 +4156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_29
       objectReference: {fileID: 0}
+    - target: {fileID: 1941951884538598, guid: 58cd44133bf9bf947bb34dce833aca15, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4760225072420098, guid: 58cd44133bf9bf947bb34dce833aca15, type: 3}
       propertyPath: m_LocalPosition.x
       value: -46.414497
@@ -3477,6 +4222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1008745058765346, guid: f0894d3a3479c634485553b098c987cb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4879555013656554, guid: f0894d3a3479c634485553b098c987cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.9
@@ -3523,6 +4272,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0894d3a3479c634485553b098c987cb, type: 3}
+--- !u!1 &8518236642784426732 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1008745058765346, guid: f0894d3a3479c634485553b098c987cb, type: 3}
+  m_PrefabInstance: {fileID: 8517800489948295374}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8512959464289341220 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4879555013656554, guid: f0894d3a3479c634485553b098c987cb, type: 3}
@@ -3538,6 +4292,10 @@ PrefabInstance:
     - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_Name
       value: citadel_wall_b (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4588604808797830, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3600,6 +4358,10 @@ PrefabInstance:
     - target: {fileID: 1274427780239302, guid: 03b1309872253d94b8de63b29d7e1f1e, type: 3}
       propertyPath: m_Name
       value: wagon (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274427780239302, guid: 03b1309872253d94b8de63b29d7e1f1e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4797983681325758, guid: 03b1309872253d94b8de63b29d7e1f1e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3675,6 +4437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_11
       objectReference: {fileID: 0}
+    - target: {fileID: 1448931260341668, guid: 914008923a1f33345b91f7350da887df, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4396813953502068, guid: 914008923a1f33345b91f7350da887df, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.92
@@ -3726,6 +4492,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4396813953502068, guid: 914008923a1f33345b91f7350da887df, type: 3}
   m_PrefabInstance: {fileID: 8517800489973049290}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516425234615532142 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1448931260341668, guid: 914008923a1f33345b91f7350da887df, type: 3}
+  m_PrefabInstance: {fileID: 8517800489973049290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800489980752688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3736,6 +4507,10 @@ PrefabInstance:
     - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_Name
       value: barrel (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4411153278471130, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3799,6 +4574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_07
       objectReference: {fileID: 0}
+    - target: {fileID: 1237186405678342, guid: ce6d0eda755266e4d85c532f7dc62628, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4074108683802570, guid: ce6d0eda755266e4d85c532f7dc62628, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.42
@@ -3850,6 +4629,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4074108683802570, guid: ce6d0eda755266e4d85c532f7dc62628, type: 3}
   m_PrefabInstance: {fileID: 8517800489982292311}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516636046370393169 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1237186405678342, guid: ce6d0eda755266e4d85c532f7dc62628, type: 3}
+  m_PrefabInstance: {fileID: 8517800489982292311}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800490009863076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3860,6 +4644,10 @@ PrefabInstance:
     - target: {fileID: 1204793252515830, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
       propertyPath: m_Name
       value: civilian_house_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204793252515830, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4598511649334936, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3923,6 +4711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_40_c
       objectReference: {fileID: 0}
+    - target: {fileID: 1382074337331480, guid: 9f44ce45268f57646b01f92a07d4dce2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4287664455509042, guid: 9f44ce45268f57646b01f92a07d4dce2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.65
@@ -3984,6 +4776,10 @@ PrefabInstance:
     - target: {fileID: 1818520758701248, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
       propertyPath: m_Name
       value: fence_stick (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818520758701248, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4874726471669478, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4047,6 +4843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1237186405678342, guid: ce6d0eda755266e4d85c532f7dc62628, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4074108683802570, guid: ce6d0eda755266e4d85c532f7dc62628, type: 3}
       propertyPath: m_LocalPosition.x
       value: -61.739998
@@ -4108,6 +4908,10 @@ PrefabInstance:
     - target: {fileID: 1393611755873776, guid: 3a86fabd48459fb408a2892102efbd6a, type: 3}
       propertyPath: m_Name
       value: civilian_house_23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393611755873776, guid: 3a86fabd48459fb408a2892102efbd6a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4439479893536876, guid: 3a86fabd48459fb408a2892102efbd6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4171,6 +4975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1672089931692366, guid: d94818446e8bc164f9acdba29d3911d6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4667033006216506, guid: d94818446e8bc164f9acdba29d3911d6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.49
@@ -4217,6 +5025,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d94818446e8bc164f9acdba29d3911d6, type: 3}
+--- !u!1 &8516516538548197336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1672089931692366, guid: d94818446e8bc164f9acdba29d3911d6, type: 3}
+  m_PrefabInstance: {fileID: 8517800490058034838}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8513451252434287532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4667033006216506, guid: d94818446e8bc164f9acdba29d3911d6, type: 3}
@@ -4232,6 +5045,10 @@ PrefabInstance:
     - target: {fileID: 1818520758701248, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
       propertyPath: m_Name
       value: fence_stick (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818520758701248, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4874726471669478, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4294,6 +5111,10 @@ PrefabInstance:
     - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_Name
       value: pine_c (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4901453242022314, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4369,6 +5190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_a (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.706055
@@ -4443,6 +5268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_07
       objectReference: {fileID: 0}
+    - target: {fileID: 1237186405678342, guid: ce6d0eda755266e4d85c532f7dc62628, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4074108683802570, guid: ce6d0eda755266e4d85c532f7dc62628, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.26
@@ -4494,6 +5323,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4074108683802570, guid: ce6d0eda755266e4d85c532f7dc62628, type: 3}
   m_PrefabInstance: {fileID: 8517800490089249299}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516636046473152277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1237186405678342, guid: ce6d0eda755266e4d85c532f7dc62628, type: 3}
+  m_PrefabInstance: {fileID: 8517800490089249299}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800490089887679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4504,6 +5338,10 @@ PrefabInstance:
     - target: {fileID: 1642667086556094, guid: 835e05937eec06b4b87f0dabf95fe842, type: 3}
       propertyPath: m_Name
       value: civilian_house_16 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642667086556094, guid: 835e05937eec06b4b87f0dabf95fe842, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4282589780853382, guid: 835e05937eec06b4b87f0dabf95fe842, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4575,6 +5413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castle_tower_octagon
       objectReference: {fileID: 0}
+    - target: {fileID: 1933501008555322, guid: 3d5764d3cca272942b5087884ae75b75, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4884781972206908, guid: 3d5764d3cca272942b5087884ae75b75, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.000004
@@ -4641,6 +5483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_wall_b (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4588604808797830, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_LocalPosition.x
       value: -97.806206
@@ -4702,6 +5548,10 @@ PrefabInstance:
     - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_Name
       value: castle_wall_15m
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4501903411537258, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4765,6 +5615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence_stick (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1818520758701248, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4874726471669478, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.154
@@ -4827,6 +5681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1624312244548522, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4416901654255976, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.36
@@ -4873,6 +5731,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
+--- !u!1 &8516459895121904404 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1624312244548522, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
+  m_PrefabInstance: {fileID: 8517800490146017470}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8519402349906700758 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4416901654255976, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
@@ -4888,6 +5751,10 @@ PrefabInstance:
     - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_Name
       value: citadel_wall_a (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4738364704643662, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4950,6 +5817,10 @@ PrefabInstance:
     - target: {fileID: 1905082359077414, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
       propertyPath: m_Name
       value: banner (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905082359077414, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4731890663447788, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5025,6 +5896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_05
       objectReference: {fileID: 0}
+    - target: {fileID: 1267184960582986, guid: 1f290b386bc343b4abde6ac8a609e068, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4631291590489646, guid: 1f290b386bc343b4abde6ac8a609e068, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.05
@@ -5086,6 +5961,10 @@ PrefabInstance:
     - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_Name
       value: citadel_wall_a (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4738364704643662, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5149,6 +6028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_wall_a
       objectReference: {fileID: 0}
+    - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4738364704643662, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -57.476242
@@ -5210,6 +6093,10 @@ PrefabInstance:
     - target: {fileID: 1330849665535216, guid: aebefcf320a8e1e47ae980463ac7e0e2, type: 3}
       propertyPath: m_Name
       value: civilian_house_36_b (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330849665535216, guid: aebefcf320a8e1e47ae980463ac7e0e2, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4384415686525662, guid: aebefcf320a8e1e47ae980463ac7e0e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5273,6 +6160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4411153278471130, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.806
@@ -5334,6 +6225,10 @@ PrefabInstance:
     - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_Name
       value: barrel (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4411153278471130, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5397,6 +6292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_36_b (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1330849665535216, guid: aebefcf320a8e1e47ae980463ac7e0e2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4384415686525662, guid: aebefcf320a8e1e47ae980463ac7e0e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.33
@@ -5458,6 +6357,10 @@ PrefabInstance:
     - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_Name
       value: barrel (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4411153278471130, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5521,6 +6424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_20 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1555343853716174, guid: 766e249e1459668468b95898fb325445, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4312539935480384, guid: 766e249e1459668468b95898fb325445, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.36
@@ -5583,6 +6490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_13
       objectReference: {fileID: 0}
+    - target: {fileID: 1467713877343946, guid: 0630c1b9608295c4d9ecdd8d0c037e91, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4183321014948842, guid: 0630c1b9608295c4d9ecdd8d0c037e91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.06
@@ -5634,6 +6545,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4183321014948842, guid: 0630c1b9608295c4d9ecdd8d0c037e91, type: 3}
   m_PrefabInstance: {fileID: 8517800490283202812}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516439431315457590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1467713877343946, guid: 0630c1b9608295c4d9ecdd8d0c037e91, type: 3}
+  m_PrefabInstance: {fileID: 8517800490283202812}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800490290673954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5644,6 +6560,10 @@ PrefabInstance:
     - target: {fileID: 1204793252515830, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
       propertyPath: m_Name
       value: civilian_house_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204793252515830, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4598511649334936, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5696,6 +6616,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4598511649334936, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
   m_PrefabInstance: {fileID: 8517800490290673954}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516598997739402964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1204793252515830, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
+  m_PrefabInstance: {fileID: 8517800490290673954}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800490307011162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5706,6 +6631,10 @@ PrefabInstance:
     - target: {fileID: 1008745058765346, guid: f0894d3a3479c634485553b098c987cb, type: 3}
       propertyPath: m_Name
       value: civilian_house_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008745058765346, guid: f0894d3a3479c634485553b098c987cb, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4879555013656554, guid: f0894d3a3479c634485553b098c987cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5758,6 +6687,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4879555013656554, guid: f0894d3a3479c634485553b098c987cb, type: 3}
   m_PrefabInstance: {fileID: 8517800490307011162}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8518236643197470840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1008745058765346, guid: f0894d3a3479c634485553b098c987cb, type: 3}
+  m_PrefabInstance: {fileID: 8517800490307011162}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800490314387463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5768,6 +6702,10 @@ PrefabInstance:
     - target: {fileID: 1941951884538598, guid: 58cd44133bf9bf947bb34dce833aca15, type: 3}
       propertyPath: m_Name
       value: civilian_house_29
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941951884538598, guid: 58cd44133bf9bf947bb34dce833aca15, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4760225072420098, guid: 58cd44133bf9bf947bb34dce833aca15, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5820,6 +6758,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4760225072420098, guid: 58cd44133bf9bf947bb34dce833aca15, type: 3}
   m_PrefabInstance: {fileID: 8517800490314387463}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8517336430239408865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1941951884538598, guid: 58cd44133bf9bf947bb34dce833aca15, type: 3}
+  m_PrefabInstance: {fileID: 8517800490314387463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800490357077199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5830,6 +6773,10 @@ PrefabInstance:
     - target: {fileID: 1267184960582986, guid: 1f290b386bc343b4abde6ac8a609e068, type: 3}
       propertyPath: m_Name
       value: civilian_house_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267184960582986, guid: 1f290b386bc343b4abde6ac8a609e068, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4631291590489646, guid: 1f290b386bc343b4abde6ac8a609e068, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5882,6 +6829,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4631291590489646, guid: 1f290b386bc343b4abde6ac8a609e068, type: 3}
   m_PrefabInstance: {fileID: 8517800490357077199}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516814963448283525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1267184960582986, guid: 1f290b386bc343b4abde6ac8a609e068, type: 3}
+  m_PrefabInstance: {fileID: 8517800490357077199}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800490372245657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5892,6 +6844,10 @@ PrefabInstance:
     - target: {fileID: 1210640465679106, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
       propertyPath: m_Name
       value: fence (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210640465679106, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4801404025615432, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5955,6 +6911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_29 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1941951884538598, guid: 58cd44133bf9bf947bb34dce833aca15, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4760225072420098, guid: 58cd44133bf9bf947bb34dce833aca15, type: 3}
       propertyPath: m_LocalPosition.x
       value: -46.769997
@@ -6016,6 +6976,10 @@ PrefabInstance:
     - target: {fileID: 1657209753273102, guid: 3540e94d79264b44184660f84d1f1dd1, type: 3}
       propertyPath: m_Name
       value: civilian_house_26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657209753273102, guid: 3540e94d79264b44184660f84d1f1dd1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4692673891996910, guid: 3540e94d79264b44184660f84d1f1dd1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6079,6 +7043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence_stick (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1818520758701248, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4874726471669478, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.764983
@@ -6141,6 +7109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_wall_a (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4738364704643662, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.615627
@@ -6202,6 +7174,10 @@ PrefabInstance:
     - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_Name
       value: pine_a (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6277,6 +7253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_c (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4901453242022314, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.026054
@@ -6351,6 +7331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_ruin_f
       objectReference: {fileID: 0}
+    - target: {fileID: 1523440281481712, guid: 9882662ad781bc746b59d726239c0532, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4760621260561076, guid: 9882662ad781bc746b59d726239c0532, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.29
@@ -6412,6 +7396,10 @@ PrefabInstance:
     - target: {fileID: 1204793252515830, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
       propertyPath: m_Name
       value: civilian_house_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204793252515830, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4598511649334936, guid: 2ae16399f9f71cd49a385e59aa119a58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6475,6 +7463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sentinel_tower_a (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1912811048901870, guid: e4dbccd50e884234ea67e66b28a5573d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000576896827364, guid: e4dbccd50e884234ea67e66b28a5573d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 46.963806
@@ -6536,6 +7528,10 @@ PrefabInstance:
     - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_Name
       value: citadel_wall_a (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4738364704643662, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6599,6 +7595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_27
       objectReference: {fileID: 0}
+    - target: {fileID: 1429497950588332, guid: 21c20b8109af2174ab4da2629d7b1727, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4079365908610402, guid: 21c20b8109af2174ab4da2629d7b1727, type: 3}
       propertyPath: m_LocalPosition.x
       value: -35.78
@@ -6650,6 +7650,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4079365908610402, guid: 21c20b8109af2174ab4da2629d7b1727, type: 3}
   m_PrefabInstance: {fileID: 8517800490466696378}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516406351103463702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1429497950588332, guid: 21c20b8109af2174ab4da2629d7b1727, type: 3}
+  m_PrefabInstance: {fileID: 8517800490466696378}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800490478282816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6660,6 +7665,10 @@ PrefabInstance:
     - target: {fileID: 1622358665942894, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
       propertyPath: m_Name
       value: civilian_house_36_a (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622358665942894, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4609283677507300, guid: f468f0ae4f8b613419a55fed888dfcca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6723,6 +7732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence_stick (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1818520758701248, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4874726471669478, guid: 83e1e9cc14b60df4c98cfd0ae8a818d8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.793
@@ -6784,6 +7797,10 @@ PrefabInstance:
     - target: {fileID: 1913801600083186, guid: 707154249749d2049b8a900deaa78cf3, type: 3}
       propertyPath: m_Name
       value: civilian_house_ruin_b
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913801600083186, guid: 707154249749d2049b8a900deaa78cf3, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4642836491438226, guid: 707154249749d2049b8a900deaa78cf3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6847,6 +7864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_ruin_d
       objectReference: {fileID: 0}
+    - target: {fileID: 1039628868491950, guid: b685843e757502a4b83db9964e0096c0, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4016960225343446, guid: b685843e757502a4b83db9964e0096c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.52
@@ -6908,6 +7929,10 @@ PrefabInstance:
     - target: {fileID: 1642667086556094, guid: 835e05937eec06b4b87f0dabf95fe842, type: 3}
       propertyPath: m_Name
       value: civilian_house_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642667086556094, guid: 835e05937eec06b4b87f0dabf95fe842, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4282589780853382, guid: 835e05937eec06b4b87f0dabf95fe842, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6979,6 +8004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_33_i
       objectReference: {fileID: 0}
+    - target: {fileID: 1964745060835356, guid: fdce00cffc9c1ca4490d8362e64e97b1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4114915598079054, guid: fdce00cffc9c1ca4490d8362e64e97b1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.25
@@ -7041,6 +8070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_19
       objectReference: {fileID: 0}
+    - target: {fileID: 1924505923262870, guid: d6dfddd766e16874bafbff7d2f2501b3, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4983677335496448, guid: d6dfddd766e16874bafbff7d2f2501b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -35.85
@@ -7087,6 +8120,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6dfddd766e16874bafbff7d2f2501b3, type: 3}
+--- !u!1 &8517318692085885264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1924505923262870, guid: d6dfddd766e16874bafbff7d2f2501b3, type: 3}
+  m_PrefabInstance: {fileID: 8517800490560286918}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8513204943111296966 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4983677335496448, guid: d6dfddd766e16874bafbff7d2f2501b3, type: 3}
@@ -7102,6 +8140,10 @@ PrefabInstance:
     - target: {fileID: 1354232637056296, guid: 8d6e7d8ac343bb04998fbcb55b6b0432, type: 3}
       propertyPath: m_Name
       value: civilian_house_33_f
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354232637056296, guid: 8d6e7d8ac343bb04998fbcb55b6b0432, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4652850395093700, guid: 8d6e7d8ac343bb04998fbcb55b6b0432, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7165,6 +8207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1210640465679106, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4801404025615432, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.749965
@@ -7227,6 +8273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_31_g
       objectReference: {fileID: 0}
+    - target: {fileID: 1922090892103300, guid: fed4c1e36ff54ec45a0c3b44a86e1709, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4267236592605244, guid: fed4c1e36ff54ec45a0c3b44a86e1709, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.17
@@ -7273,6 +8323,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fed4c1e36ff54ec45a0c3b44a86e1709, type: 3}
+--- !u!1 &8517320967585708494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1922090892103300, guid: fed4c1e36ff54ec45a0c3b44a86e1709, type: 3}
+  m_PrefabInstance: {fileID: 8517800490605950794}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8519235366454128502 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4267236592605244, guid: fed4c1e36ff54ec45a0c3b44a86e1709, type: 3}
@@ -7288,6 +8343,10 @@ PrefabInstance:
     - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_Name
       value: citadel_wall_b (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4588604808797830, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7351,6 +8410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1624312244548522, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4416901654255976, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.28
@@ -7402,6 +8465,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4416901654255976, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
   m_PrefabInstance: {fileID: 8517800490655845107}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516459896779553113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1624312244548522, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
+  m_PrefabInstance: {fileID: 8517800490655845107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800490669071570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7412,6 +8480,10 @@ PrefabInstance:
     - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_Name
       value: citadel_wall_b (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4588604808797830, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7475,6 +8547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_wall_a (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4738364704643662, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -57.476242
@@ -7536,6 +8612,10 @@ PrefabInstance:
     - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_Name
       value: barrel (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4411153278471130, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7599,6 +8679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_41_b
       objectReference: {fileID: 0}
+    - target: {fileID: 1197103568177166, guid: a8a94230d0e8bbb4f8ff28f683386a99, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4963689601520160, guid: a8a94230d0e8bbb4f8ff28f683386a99, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.41
@@ -7660,6 +8744,10 @@ PrefabInstance:
     - target: {fileID: 1050760457170554, guid: 36493f57f683da240b7f01888e9acf52, type: 3}
       propertyPath: m_Name
       value: civilian_house_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050760457170554, guid: 36493f57f683da240b7f01888e9acf52, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4027913784296166, guid: 36493f57f683da240b7f01888e9acf52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7723,6 +8811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_08
       objectReference: {fileID: 0}
+    - target: {fileID: 1088795702756802, guid: 4ee08ada65953df469db0d6a3de4274b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4267951790424872, guid: 4ee08ada65953df469db0d6a3de4274b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.26
@@ -7769,6 +8861,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee08ada65953df469db0d6a3de4274b, type: 3}
+--- !u!1 &8518154262902261406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1088795702756802, guid: 4ee08ada65953df469db0d6a3de4274b, type: 3}
+  m_PrefabInstance: {fileID: 8517800490759373660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8519235750347096180 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4267951790424872, guid: 4ee08ada65953df469db0d6a3de4274b, type: 3}
@@ -7784,6 +8881,10 @@ PrefabInstance:
     - target: {fileID: 1761017601449450, guid: d7fd44a9ba1363345ba0969019d4c1c9, type: 3}
       propertyPath: m_Name
       value: civilian_house_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761017601449450, guid: d7fd44a9ba1363345ba0969019d4c1c9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4641666428511186, guid: d7fd44a9ba1363345ba0969019d4c1c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7846,6 +8947,10 @@ PrefabInstance:
     - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_Name
       value: pine_a (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7921,6 +9026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castle_wall_15m (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4501903411537258, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -50.29607
@@ -7983,6 +9092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_27 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1429497950588332, guid: 21c20b8109af2174ab4da2629d7b1727, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4079365908610402, guid: 21c20b8109af2174ab4da2629d7b1727, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.15
@@ -8034,6 +9147,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4079365908610402, guid: 21c20b8109af2174ab4da2629d7b1727, type: 3}
   m_PrefabInstance: {fileID: 8517800490852885110}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516406350180413402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1429497950588332, guid: 21c20b8109af2174ab4da2629d7b1727, type: 3}
+  m_PrefabInstance: {fileID: 8517800490852885110}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800490879993182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8044,6 +9162,10 @@ PrefabInstance:
     - target: {fileID: 1587181440461260, guid: 67250b40a6676684c8c551e4a1fddcdf, type: 3}
       propertyPath: m_Name
       value: civilian_bridge_1_a
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587181440461260, guid: 67250b40a6676684c8c551e4a1fddcdf, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4505974636721282, guid: 67250b40a6676684c8c551e4a1fddcdf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8119,6 +9241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_20
       objectReference: {fileID: 0}
+    - target: {fileID: 1555343853716174, guid: 766e249e1459668468b95898fb325445, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4312539935480384, guid: 766e249e1459668468b95898fb325445, type: 3}
       propertyPath: m_LocalPosition.x
       value: -35.94
@@ -8165,6 +9291,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 766e249e1459668468b95898fb325445, type: 3}
+--- !u!1 &8516527869191013882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1555343853716174, guid: 766e249e1459668468b95898fb325445, type: 3}
+  m_PrefabInstance: {fileID: 8517800490891724596}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8519152782527225204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4312539935480384, guid: 766e249e1459668468b95898fb325445, type: 3}
@@ -8180,6 +9311,10 @@ PrefabInstance:
     - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_Name
       value: castle_wall_15m (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4501903411537258, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8243,6 +9378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_13 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1467713877343946, guid: 0630c1b9608295c4d9ecdd8d0c037e91, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4183321014948842, guid: 0630c1b9608295c4d9ecdd8d0c037e91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -73.1
@@ -8304,6 +9443,10 @@ PrefabInstance:
     - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_Name
       value: castle_wall_15m (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4501903411537258, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8367,6 +9510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_27
       objectReference: {fileID: 0}
+    - target: {fileID: 1429497950588332, guid: 21c20b8109af2174ab4da2629d7b1727, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4079365908610402, guid: 21c20b8109af2174ab4da2629d7b1727, type: 3}
       propertyPath: m_LocalPosition.x
       value: -40.584366
@@ -8428,6 +9575,10 @@ PrefabInstance:
     - target: {fileID: 1905082359077414, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
       propertyPath: m_Name
       value: banner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905082359077414, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4731890663447788, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8503,6 +9654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_ruin_c
       objectReference: {fileID: 0}
+    - target: {fileID: 1976745052153122, guid: 56ab64e7b97c8d84eba97d049c739f25, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4131090064067476, guid: 56ab64e7b97c8d84eba97d049c739f25, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.53
@@ -8565,6 +9720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_30_f
       objectReference: {fileID: 0}
+    - target: {fileID: 1747547292369272, guid: 56d66c6ced3c8cc42ac1089cc3729b50, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4031165061106790, guid: 56d66c6ced3c8cc42ac1089cc3729b50, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.09
@@ -8616,6 +9775,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4031165061106790, guid: 56d66c6ced3c8cc42ac1089cc3729b50, type: 3}
   m_PrefabInstance: {fileID: 8517800491039100102}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8517286596047769022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1747547292369272, guid: 56d66c6ced3c8cc42ac1089cc3729b50, type: 3}
+  m_PrefabInstance: {fileID: 8517800491039100102}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800491057153333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8626,6 +9790,10 @@ PrefabInstance:
     - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_Name
       value: pine_d (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4065334524731742, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8701,6 +9869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: street_green_belt_a (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1789806267298236, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4493523499585350, guid: 87628799fe06ec849b1bca290645d82a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.74
@@ -8762,6 +9934,10 @@ PrefabInstance:
     - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_Name
       value: citadel_wall_a (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066124637356120, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4738364704643662, guid: 1a21ac63d1f3f8f469c6fa25adbfb1c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8825,6 +10001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: terrain_city_inner
       objectReference: {fileID: 0}
+    - target: {fileID: 1902770365646634, guid: 36888e805d00a0b4b82757e3692ede9b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4509780323381818, guid: 36888e805d00a0b4b82757e3692ede9b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8869,16 +10049,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4509780323381818, guid: 36888e805d00a0b4b82757e3692ede9b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4509780323381818, guid: 36888e805d00a0b4b82757e3692ede9b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36888e805d00a0b4b82757e3692ede9b, type: 3}
+--- !u!1 &8517306239301840464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1902770365646634, guid: 36888e805d00a0b4b82757e3692ede9b, type: 3}
+  m_PrefabInstance: {fileID: 8517800491096615290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8513294189831035712 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4509780323381818, guid: 36888e805d00a0b4b82757e3692ede9b, type: 3}
@@ -8894,6 +10071,10 @@ PrefabInstance:
     - target: {fileID: 1743493599039194, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
       propertyPath: m_Name
       value: citadel_tower_corner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743493599039194, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4878502335556674, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8945,6 +10126,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
+--- !u!1 &8517291887591555211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1743493599039194, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
+  m_PrefabInstance: {fileID: 8517800491115449937}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8512958410175193619 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4878502335556674, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
@@ -8960,6 +10146,10 @@ PrefabInstance:
     - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_Name
       value: citadel_wall_b (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4588604808797830, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9023,6 +10213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_wall_b (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4588604808797830, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.003754
@@ -9085,6 +10279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_tower_corner
       objectReference: {fileID: 0}
+    - target: {fileID: 1743493599039194, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4878502335556674, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.9
@@ -9131,6 +10329,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
+--- !u!1 &8517291887593449774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1743493599039194, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
+  m_PrefabInstance: {fileID: 8517800491121469428}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8512958410177530806 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4878502335556674, guid: 08f2ef463b7ae7b47af2e8f88368eb62, type: 3}
@@ -9146,6 +10349,10 @@ PrefabInstance:
     - target: {fileID: 1912811048901870, guid: e4dbccd50e884234ea67e66b28a5573d, type: 3}
       propertyPath: m_Name
       value: sentinel_tower_a (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912811048901870, guid: e4dbccd50e884234ea67e66b28a5573d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000576896827364, guid: e4dbccd50e884234ea67e66b28a5573d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9209,6 +10416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_21
       objectReference: {fileID: 0}
+    - target: {fileID: 1610664412949754, guid: db1ecc7f1c4946a498d495065d9a028b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4901774862929272, guid: db1ecc7f1c4946a498d495065d9a028b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.37
@@ -9270,6 +10481,10 @@ PrefabInstance:
     - target: {fileID: 1556677782104186, guid: 99d062afc5365824d84679b7d866f71b, type: 3}
       propertyPath: m_Name
       value: roof_building_8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1556677782104186, guid: 99d062afc5365824d84679b7d866f71b, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4795323941061374, guid: 99d062afc5365824d84679b7d866f71b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9337,6 +10552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4411153278471130, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.55
@@ -9398,6 +10617,10 @@ PrefabInstance:
     - target: {fileID: 1841469644545242, guid: 2af45bc41a41e7c48bc8bf02bd3f2517, type: 3}
       propertyPath: m_Name
       value: roof_building_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841469644545242, guid: 2af45bc41a41e7c48bc8bf02bd3f2517, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4499084111335716, guid: 2af45bc41a41e7c48bc8bf02bd3f2517, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9461,6 +10684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castle_wall_15m (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4501903411537258, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -78.09607
@@ -9522,6 +10749,10 @@ PrefabInstance:
     - target: {fileID: 1044818417282170, guid: 9a0029d66f7229f4dacf38d09d5ddea3, type: 3}
       propertyPath: m_Name
       value: citadel_main
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044818417282170, guid: 9a0029d66f7229f4dacf38d09d5ddea3, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4478822117492342, guid: 9a0029d66f7229f4dacf38d09d5ddea3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9585,6 +10816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castle_wall_15m (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4501903411537258, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.580006
@@ -9646,6 +10881,10 @@ PrefabInstance:
     - target: {fileID: 1856307242764454, guid: 792edc2a6feb36545babe0f211d63460, type: 3}
       propertyPath: m_Name
       value: civilian_house_34_f
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856307242764454, guid: 792edc2a6feb36545babe0f211d63460, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4833948250300272, guid: 792edc2a6feb36545babe0f211d63460, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9709,6 +10948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_08 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1088795702756802, guid: 4ee08ada65953df469db0d6a3de4274b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4267951790424872, guid: 4ee08ada65953df469db0d6a3de4274b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -65.3
@@ -9770,6 +11013,10 @@ PrefabInstance:
     - target: {fileID: 1964745060835356, guid: fdce00cffc9c1ca4490d8362e64e97b1, type: 3}
       propertyPath: m_Name
       value: civilian_house_33_i (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964745060835356, guid: fdce00cffc9c1ca4490d8362e64e97b1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4114915598079054, guid: fdce00cffc9c1ca4490d8362e64e97b1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9833,6 +11080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1008745058765346, guid: f0894d3a3479c634485553b098c987cb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4879555013656554, guid: f0894d3a3479c634485553b098c987cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.21
@@ -9879,6 +11130,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0894d3a3479c634485553b098c987cb, type: 3}
+--- !u!1 &8518236641902687433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1008745058765346, guid: f0894d3a3479c634485553b098c987cb, type: 3}
+  m_PrefabInstance: {fileID: 8517800491235081963}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8512959462489112833 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4879555013656554, guid: f0894d3a3479c634485553b098c987cb, type: 3}
@@ -9894,6 +11150,10 @@ PrefabInstance:
     - target: {fileID: 1172920277092566, guid: 0c0ff49ff09754f4e89b4601e969f78e, type: 3}
       propertyPath: m_Name
       value: civilian_house_24_b
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172920277092566, guid: 0c0ff49ff09754f4e89b4601e969f78e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4061577229532382, guid: 0c0ff49ff09754f4e89b4601e969f78e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9956,6 +11216,10 @@ PrefabInstance:
     - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_Name
       value: pine_d (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4065334524731742, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10031,6 +11295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_12 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1050760457170554, guid: 36493f57f683da240b7f01888e9acf52, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4027913784296166, guid: 36493f57f683da240b7f01888e9acf52, type: 3}
       propertyPath: m_LocalPosition.x
       value: -65.4
@@ -10092,6 +11360,10 @@ PrefabInstance:
     - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_Name
       value: pine_d (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4065334524731742, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10167,6 +11439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_22
       objectReference: {fileID: 0}
+    - target: {fileID: 1626296054210232, guid: bd00af613c1a7cf44b953514fa6b0a93, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4928136882835958, guid: bd00af613c1a7cf44b953514fa6b0a93, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.86
@@ -10228,6 +11504,10 @@ PrefabInstance:
     - target: {fileID: 1274427780239302, guid: 03b1309872253d94b8de63b29d7e1f1e, type: 3}
       propertyPath: m_Name
       value: wagon (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274427780239302, guid: 03b1309872253d94b8de63b29d7e1f1e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4797983681325758, guid: 03b1309872253d94b8de63b29d7e1f1e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10303,6 +11583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_37_d
       objectReference: {fileID: 0}
+    - target: {fileID: 1892258171336422, guid: 81ad85240f2ad6e40883c545920ed00c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4746356528002388, guid: 81ad85240f2ad6e40883c545920ed00c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -53.429996
@@ -10365,6 +11649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1624312244548522, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4416901654255976, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.44
@@ -10416,6 +11704,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4416901654255976, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
   m_PrefabInstance: {fileID: 8517800491278046345}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516459896253818659 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1624312244548522, guid: 144d1d48e42b16e408d98127b892490c, type: 3}
+  m_PrefabInstance: {fileID: 8517800491278046345}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800491286748363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10426,6 +11719,10 @@ PrefabInstance:
     - target: {fileID: 1912811048901870, guid: e4dbccd50e884234ea67e66b28a5573d, type: 3}
       propertyPath: m_Name
       value: sentinel_tower_a (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912811048901870, guid: e4dbccd50e884234ea67e66b28a5573d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000576896827364, guid: e4dbccd50e884234ea67e66b28a5573d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10489,6 +11786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sentinel_tower_a
       objectReference: {fileID: 0}
+    - target: {fileID: 1912811048901870, guid: e4dbccd50e884234ea67e66b28a5573d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000576896827364, guid: e4dbccd50e884234ea67e66b28a5573d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -97.76624
@@ -10550,6 +11851,10 @@ PrefabInstance:
     - target: {fileID: 1642667086556094, guid: 835e05937eec06b4b87f0dabf95fe842, type: 3}
       propertyPath: m_Name
       value: civilian_house_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642667086556094, guid: 835e05937eec06b4b87f0dabf95fe842, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4282589780853382, guid: 835e05937eec06b4b87f0dabf95fe842, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10620,6 +11925,10 @@ PrefabInstance:
     - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_Name
       value: pine_c (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4901453242022314, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10695,6 +12004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roof_building_10
       objectReference: {fileID: 0}
+    - target: {fileID: 1046579777761848, guid: c61dbe0b23dc6a848bea138dcdc5a014, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4139359070570760, guid: c61dbe0b23dc6a848bea138dcdc5a014, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.26
@@ -10757,6 +12070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_06
       objectReference: {fileID: 0}
+    - target: {fileID: 1446531704120262, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4031798082164398, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.14
@@ -10808,6 +12125,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4031798082164398, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
   m_PrefabInstance: {fileID: 8517800491304401081}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516427798950828927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1446531704120262, guid: 2d336554bc95f6942a90d88547aeb1b8, type: 3}
+  m_PrefabInstance: {fileID: 8517800491304401081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800491341162004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10818,6 +12140,10 @@ PrefabInstance:
     - target: {fileID: 1677642438990034, guid: 7c3e38b0eca1f45448217509c1d85d08, type: 3}
       propertyPath: m_Name
       value: civilian_house_34_g (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677642438990034, guid: 7c3e38b0eca1f45448217509c1d85d08, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4098695146886754, guid: 7c3e38b0eca1f45448217509c1d85d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10880,6 +12206,10 @@ PrefabInstance:
     - target: {fileID: 1933501008555322, guid: 3d5764d3cca272942b5087884ae75b75, type: 3}
       propertyPath: m_Name
       value: castle_tower_octagon (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933501008555322, guid: 3d5764d3cca272942b5087884ae75b75, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4884781972206908, guid: 3d5764d3cca272942b5087884ae75b75, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10946,6 +12276,10 @@ PrefabInstance:
     - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_Name
       value: pine_c (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876142201406200, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4901453242022314, guid: f6a029b9b005e3b48ba76000f8c2b62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11021,6 +12355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_30_e
       objectReference: {fileID: 0}
+    - target: {fileID: 1115088949518976, guid: a7635237256fa0c49ab389f128e1ba27, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4478025086236128, guid: a7635237256fa0c49ab389f128e1ba27, type: 3}
       propertyPath: m_LocalPosition.x
       value: -37.5
@@ -11072,6 +12410,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4478025086236128, guid: a7635237256fa0c49ab389f128e1ba27, type: 3}
   m_PrefabInstance: {fileID: 8517800491380765318}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8518198330451251206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1115088949518976, guid: a7635237256fa0c49ab389f128e1ba27, type: 3}
+  m_PrefabInstance: {fileID: 8517800491380765318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800491393017652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11082,6 +12425,10 @@ PrefabInstance:
     - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_Name
       value: citadel_wall_b
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4588604808797830, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11145,6 +12492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_stairs_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1778367457619244, guid: ab7e4379616633d4fae805cc74f50740, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4030265937643786, guid: ab7e4379616633d4fae805cc74f50740, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.34
@@ -11206,6 +12557,10 @@ PrefabInstance:
     - target: {fileID: 1972304113016134, guid: a94d1b07a101d8641b374a2efcf336d4, type: 3}
       propertyPath: m_Name
       value: civilian_house_40_a
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972304113016134, guid: a94d1b07a101d8641b374a2efcf336d4, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4507294458789108, guid: a94d1b07a101d8641b374a2efcf336d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11269,6 +12624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_14
       objectReference: {fileID: 0}
+    - target: {fileID: 1731394107989704, guid: 414be24aef66cda4884ad5836d90cc67, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4107449236811566, guid: 414be24aef66cda4884ad5836d90cc67, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.46
@@ -11320,6 +12679,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4107449236811566, guid: 414be24aef66cda4884ad5836d90cc67, type: 3}
   m_PrefabInstance: {fileID: 8517800491456489116}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8517266611876182100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1731394107989704, guid: 414be24aef66cda4884ad5836d90cc67, type: 3}
+  m_PrefabInstance: {fileID: 8517800491456489116}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800491471582976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11330,6 +12694,10 @@ PrefabInstance:
     - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_Name
       value: barrel (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319930702440686, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4411153278471130, guid: 55eac99f5049e5045a42f2528f476504, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11392,6 +12760,10 @@ PrefabInstance:
     - target: {fileID: 1905082359077414, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
       propertyPath: m_Name
       value: banner
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905082359077414, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4731890663447788, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11467,6 +12839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_37_a
       objectReference: {fileID: 0}
+    - target: {fileID: 1321055205218638, guid: 2594e9284459863408cbe27384553415, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4158344807235840, guid: 2594e9284459863408cbe27384553415, type: 3}
       propertyPath: m_LocalPosition.x
       value: -34.53772
@@ -11518,6 +12894,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4158344807235840, guid: 2594e9284459863408cbe27384553415, type: 3}
   m_PrefabInstance: {fileID: 8517800491474452623}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516868835251837377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1321055205218638, guid: 2594e9284459863408cbe27384553415, type: 3}
+  m_PrefabInstance: {fileID: 8517800491474452623}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800491478851300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11528,6 +12909,10 @@ PrefabInstance:
     - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_Name
       value: castle_wall_15m (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4501903411537258, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11591,6 +12976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_15 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1828137678879142, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4379896934756086, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.33
@@ -11637,6 +13026,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
+--- !u!1 &8517204940981999051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1828137678879142, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
+  m_PrefabInstance: {fileID: 8517800491484982381}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8519333940164477595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4379896934756086, guid: dddb890a09d7d0c48ad87caccb6e3a2c, type: 3}
@@ -11652,6 +13046,10 @@ PrefabInstance:
     - target: {fileID: 1050760457170554, guid: 36493f57f683da240b7f01888e9acf52, type: 3}
       propertyPath: m_Name
       value: civilian_house_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050760457170554, guid: 36493f57f683da240b7f01888e9acf52, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4027913784296166, guid: 36493f57f683da240b7f01888e9acf52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11704,6 +13102,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4027913784296166, guid: 36493f57f683da240b7f01888e9acf52, type: 3}
   m_PrefabInstance: {fileID: 8517800491498149125}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8518265966452161407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1050760457170554, guid: 36493f57f683da240b7f01888e9acf52, type: 3}
+  m_PrefabInstance: {fileID: 8517800491498149125}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800491513024200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11714,6 +13117,10 @@ PrefabInstance:
     - target: {fileID: 1109502644882432, guid: 21735a94dcd39be409a7db4ca33af760, type: 3}
       propertyPath: m_Name
       value: civilian_house_37_g (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109502644882432, guid: 21735a94dcd39be409a7db4ca33af760, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4558289655352502, guid: 21735a94dcd39be409a7db4ca33af760, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11777,6 +13184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: crusader_headquarter
       objectReference: {fileID: 0}
+    - target: {fileID: 1746639130438152, guid: f448e9bc82e30394a811011a5c3b6183, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4428124171281192, guid: f448e9bc82e30394a811011a5c3b6183, type: 3}
       propertyPath: m_LocalPosition.x
       value: -112.7
@@ -11839,6 +13250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_11 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1448931260341668, guid: 914008923a1f33345b91f7350da887df, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4396813953502068, guid: 914008923a1f33345b91f7350da887df, type: 3}
       propertyPath: m_LocalPosition.x
       value: -92.5
@@ -11900,6 +13315,10 @@ PrefabInstance:
     - target: {fileID: 1075251176664404, guid: 0a16023fc512a7f47a63e559f906fa2a, type: 3}
       propertyPath: m_Name
       value: roof_building_9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075251176664404, guid: 0a16023fc512a7f47a63e559f906fa2a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4693508630278508, guid: 0a16023fc512a7f47a63e559f906fa2a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11967,6 +13386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_10
       objectReference: {fileID: 0}
+    - target: {fileID: 1692582823283460, guid: 019a25b5cc9981d47ae145f0b82ad22d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4249937598678254, guid: 019a25b5cc9981d47ae145f0b82ad22d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.25
@@ -12018,6 +13441,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4249937598678254, guid: 019a25b5cc9981d47ae145f0b82ad22d, type: 3}
   m_PrefabInstance: {fileID: 8517800491573868249}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8517236050631278045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1692582823283460, guid: 019a25b5cc9981d47ae145f0b82ad22d, type: 3}
+  m_PrefabInstance: {fileID: 8517800491573868249}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800491575913467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12028,6 +13456,10 @@ PrefabInstance:
     - target: {fileID: 1905082359077414, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
       propertyPath: m_Name
       value: banner (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905082359077414, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4731890663447788, guid: 195ee2530fc763341a03f3df4b50ed56, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12103,6 +13535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1210640465679106, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4801404025615432, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.768948
@@ -12164,6 +13600,10 @@ PrefabInstance:
     - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_Name
       value: castle_wall_15m (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017104576938822, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4501903411537258, guid: 52b2dd90b973b4b4cae0206dc54205e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12227,6 +13667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_ruin_a
       objectReference: {fileID: 0}
+    - target: {fileID: 1405432569859698, guid: ed018072c2a086646b6a178812f1691f, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4115926920497814, guid: ed018072c2a086646b6a178812f1691f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.02
@@ -12289,6 +13733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_wall_b (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4588604808797830, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.003784
@@ -12350,6 +13798,10 @@ PrefabInstance:
     - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_Name
       value: pine_d (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4065334524731742, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12425,6 +13877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citadel_wall_b (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1456136697227728, guid: b0b614057f82758419565fb514ebd466, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4588604808797830, guid: b0b614057f82758419565fb514ebd466, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.00377
@@ -12486,6 +13942,10 @@ PrefabInstance:
     - target: {fileID: 1262254516111438, guid: b17928c38ad69b341854a1d83a2f64a7, type: 3}
       propertyPath: m_Name
       value: civilian_house_ruin_e
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262254516111438, guid: b17928c38ad69b341854a1d83a2f64a7, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4552302730195008, guid: b17928c38ad69b341854a1d83a2f64a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12549,6 +14009,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_34_g
       objectReference: {fileID: 0}
+    - target: {fileID: 1677642438990034, guid: 7c3e38b0eca1f45448217509c1d85d08, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4098695146886754, guid: 7c3e38b0eca1f45448217509c1d85d08, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.54
@@ -12600,6 +14064,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4098695146886754, guid: 7c3e38b0eca1f45448217509c1d85d08, type: 3}
   m_PrefabInstance: {fileID: 8517800491680680876}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8516513210283889534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1677642438990034, guid: 7c3e38b0eca1f45448217509c1d85d08, type: 3}
+  m_PrefabInstance: {fileID: 8517800491680680876}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8517800491680861697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12610,6 +14079,10 @@ PrefabInstance:
     - target: {fileID: 1210640465679106, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
       propertyPath: m_Name
       value: fence (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210640465679106, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4801404025615432, guid: 4d4f3743a7b39904aa665563fe459249, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12673,6 +14146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_26 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1657209753273102, guid: 3540e94d79264b44184660f84d1f1dd1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4692673891996910, guid: 3540e94d79264b44184660f84d1f1dd1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.68
@@ -12735,6 +14212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: civilian_house_32_e
       objectReference: {fileID: 0}
+    - target: {fileID: 1654847301985950, guid: 4e1c3a5b81bf7564797f0a0bc1f280de, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4965806186746310, guid: 4e1c3a5b81bf7564797f0a0bc1f280de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1500015
@@ -12781,6 +14262,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e1c3a5b81bf7564797f0a0bc1f280de, type: 3}
+--- !u!1 &8516499833181454662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1654847301985950, guid: 4e1c3a5b81bf7564797f0a0bc1f280de, type: 3}
+  m_PrefabInstance: {fileID: 8517800491707787224}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8513186709631612446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4965806186746310, guid: 4e1c3a5b81bf7564797f0a0bc1f280de, type: 3}
@@ -12796,6 +14282,10 @@ PrefabInstance:
     - target: {fileID: 6214469776843125906, guid: e345026df2019cc48b0e5b08387e1a39, type: 3}
       propertyPath: m_Name
       value: castle_gate_c
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214469776843125906, guid: e345026df2019cc48b0e5b08387e1a39, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6734548279034572328, guid: e345026df2019cc48b0e5b08387e1a39, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12862,6 +14352,10 @@ PrefabInstance:
     - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_Name
       value: pine_a (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1058886637327582, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4311179899937836, guid: 4cc4a170ba1e7ae48a9688fe23ddbe89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12936,6 +14430,10 @@ PrefabInstance:
     - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_Name
       value: pine_d (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113708428238928, guid: 0f423507880a570418de6a595999407c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4065334524731742, guid: 0f423507880a570418de6a595999407c, type: 3}
       propertyPath: m_LocalPosition.x

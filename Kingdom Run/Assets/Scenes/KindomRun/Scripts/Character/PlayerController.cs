@@ -10,9 +10,18 @@ namespace Assets.Scenes.KindomRun.Scripts.Character
         private Vector2 _inputVector;
         private CharacterController _characterController;
         private Animator _animator;
-        
+
+
+        private float _fallingSpeed;
+        private bool _isGround;
+
+        [SerializeField] private LayerMask layerMask;
+        [SerializeField] private Transform groundCheckPos;
+
         [SerializeField] private float characterMoveSpeed = 10f;
         [SerializeField] private float characterRotateSpeed = 5f;
+
+
         private void Awake()
         {
             _characterController = GetComponent<CharacterController>();
@@ -46,6 +55,13 @@ namespace Assets.Scenes.KindomRun.Scripts.Character
             
             _animator.SetFloat("Speed", 
                 Mathf.Max(Mathf.Abs(_inputVector.x), Mathf.Abs(_inputVector.y)));
+
+
+            _isGround = Physics.CheckSphere(groundCheckPos.position, 0.1f, layerMask);
+            if (!_isGround)
+            {
+                _characterController.Move(new Vector3(0, -0.98f * Time.deltaTime, 0));
+            }
         }
         
         public void OnMove(InputAction.CallbackContext context)
