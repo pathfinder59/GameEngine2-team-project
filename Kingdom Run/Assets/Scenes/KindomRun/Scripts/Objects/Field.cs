@@ -9,15 +9,12 @@ namespace Object
     {
         void Start()
         {
-            EventManager.On("game_ended", Hide);
         }
 
         void Update()
         {
 
         }
-
-        private void Hide(object obj) => gameObject.SetActive(false);
     }
 
 }

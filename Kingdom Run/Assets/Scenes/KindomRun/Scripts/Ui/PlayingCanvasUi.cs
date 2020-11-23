@@ -13,7 +13,9 @@ namespace Scene.Ui
         [SerializeField] private Slider slider;
         [SerializeField] private Transform playerPos;
         [SerializeField] private Transform enemyPos;
+        
         private Player player;
+        private Enemy enemy;
         // Start is called before the first frame update
         void Start()
         {
@@ -25,11 +27,18 @@ namespace Scene.Ui
             player = ObjectPoolManager.Instance.Spawn("Player").GetComponent<Player>();
             player.gameObject.transform.position = playerPos.position;
             player.gameObject.transform.rotation = playerPos.rotation;
+
+            enemy = ObjectPoolManager.Instance.Spawn("Enemy").GetComponent<Enemy>();
+            enemy.gameObject.transform.position = enemyPos.position;
+            enemy.gameObject.transform.rotation = enemyPos.rotation;
+            enemy.ForwardTarget(null);
         }
         private void OnDisable()
         {
             if (player)
                 player.gameObject.SetActive(false);
+            if (enemy)
+                enemy.gameObject.SetActive(false);
         }
         // Update is called once per frame
         void Update()

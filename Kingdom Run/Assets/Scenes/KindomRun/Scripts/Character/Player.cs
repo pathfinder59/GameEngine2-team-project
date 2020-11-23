@@ -59,12 +59,14 @@
                 Damage(25);
                 if (Stat.Hp == 0)
                 {
+                    GameManager.Instance.SetEndState(false);
                     EventManager.Emit("game_ended");
                 }
             }
             else if(other.gameObject.CompareTag("Portal"))
             {
-                EventManager.Emit("game_ended");
+                GameManager.Instance.SetEndState(true);
+                EventManager.Emit("game_ended");          
             }
         }
 

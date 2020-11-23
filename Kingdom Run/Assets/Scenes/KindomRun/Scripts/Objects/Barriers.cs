@@ -8,7 +8,7 @@ public class Barriers : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        EventManager.On("game_ended", Hide);
+
     }
 
     // Update is called once per frame
@@ -16,5 +16,4 @@ public class Barriers : MonoBehaviour
     {
         
     }
-    private void Hide(object obj) => gameObject.SetActive(false);
 }

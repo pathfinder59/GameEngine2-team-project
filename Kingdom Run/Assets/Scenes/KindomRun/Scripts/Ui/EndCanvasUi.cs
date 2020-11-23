@@ -9,29 +9,26 @@ namespace Scene.Ui
     public class EndCanvasUi : MonoBehaviour
     {
         // Start is called before the first frame update
-        [SerializeField] private Image image;
-        [SerializeField] private Sprite loseImage;
-        [SerializeField] private Sprite winImage;
+        [SerializeField] private Image _image;
+        [SerializeField] private Sprite _loseImage;
+        [SerializeField] private Sprite _winImage;
+
         void Start()
         {
-            EventManager.On("game_win", SetWinScene);
-            EventManager.On("game_lose", SetLoseScene);
         }
-
+        private void OnEnable()
+        {
+            if (GameManager.Instance.isWin)
+                _image.sprite = _winImage;
+            else
+                _image.sprite = _loseImage;
+        }
         // Update is called once per frame
         void Update()
         {
-
-        }
-        private void SetWinScene(object obj)
-        {
             
-            image.sprite = winImage;
         }
-        private void SetLoseScene(object obj)
-        {
-            image.sprite = loseImage;
-        }
+
         public void ShowStartCanvas()
         {
             GameManager.Instance.SetState(KPU.State.Initializing);

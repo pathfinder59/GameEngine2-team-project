@@ -5,6 +5,8 @@ namespace KPU.Manager
     public class GameManager : SingletonBehaviour<GameManager>
     {
         [SerializeField] private State state;
+
+        public bool isWin = false;
         public State State => state;
 
         /// <summary>
@@ -16,6 +18,7 @@ namespace KPU.Manager
             state = targetState;
         }
 
+        public void SetEndState(bool b) => isWin = b;
         private void Start()
         {
             state = State.Initializing;
