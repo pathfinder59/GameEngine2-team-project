@@ -26,6 +26,11 @@ namespace Scene.Ui
             player.gameObject.transform.position = playerPos.position;
             player.gameObject.transform.rotation = playerPos.rotation;
         }
+        private void OnDisable()
+        {
+            if (player)
+                player.gameObject.SetActive(false);
+        }
         // Update is called once per frame
         void Update()
         {
