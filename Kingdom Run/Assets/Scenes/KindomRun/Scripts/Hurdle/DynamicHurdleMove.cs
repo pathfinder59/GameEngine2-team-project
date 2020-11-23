@@ -28,7 +28,7 @@ namespace Assets.Scenes.KindomRun.Scripts.Hurdle
                 transform.position = Vector3.MoveTowards(transform.position, 
                     targetPos, speed);
 
-                if (Vector3.Distance(transform.position, targetPos) <= 0.1f)
+                if (Vector3.Distance(transform.position, targetPos) < 0.00001f)
                 {
                     isArrive = true;
                 }
