@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+﻿using KPU.Manager;
+using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Controls;
 
-namespace Assets.Scenes.KindomRun.Scripts.Character
+namespace Scenes.KindomRun.Scripts.Character
 {
     public class PlayerController : MonoBehaviour, PlayerInputAction.IPlayerActions
     {
@@ -10,7 +10,6 @@ namespace Assets.Scenes.KindomRun.Scripts.Character
         private Vector2 _inputVector;
         private CharacterController _characterController;
         private Animator _animator;
-
 
         private float _fallingSpeed;
         private bool _isGround;
@@ -61,6 +60,14 @@ namespace Assets.Scenes.KindomRun.Scripts.Character
             if (!_isGround)
             {
                 _characterController.Move(new Vector3(0, -0.98f * Time.deltaTime, 0));
+            }
+
+            Vector3 viewPos = UnityEngine.Camera.main.WorldToViewportPoint(transform.position);
+            
+            if (viewPos.y < 0.0f || viewPos.y > 0.99f)
+            {
+                GameManager.Instance.SetEndState(false);
+                EventManager.Emit("game_ended");
             }
         }
         

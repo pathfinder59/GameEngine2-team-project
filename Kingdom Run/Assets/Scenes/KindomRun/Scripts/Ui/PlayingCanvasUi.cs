@@ -1,5 +1,4 @@
-﻿using Assets.Scenes.KindomRun.Scripts.Character;
-using KPU.Manager;
+﻿using KPU.Manager;
 using Scenes.AI;
 using System.Collections;
 using System.Collections.Generic;
