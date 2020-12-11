@@ -14,5 +14,10 @@ public class CinemaManager : MonoBehaviour
         {
             SceneManager.LoadScene("KindomRun");
         }
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene("KindomRun");
+        }
     }
 }
