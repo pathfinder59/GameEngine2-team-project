@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class CinemaManager : MonoBehaviour
 {
@@ -9,9 +10,9 @@ public class CinemaManager : MonoBehaviour
     [SerializeField] PlayableDirector playableDirector;
     private void Update()
     {
-        if(playableDirector.time == 0)
+        if(playableDirector.duration-0.1f <= playableDirector.time)
         {
-
+            SceneManager.LoadScene("KindomRun");
         }
     }
 }
