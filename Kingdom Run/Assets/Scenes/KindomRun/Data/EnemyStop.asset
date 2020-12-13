@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f7208363702bd64a9f396e94c12c171, type: 3}
   m_Name: EnemyStop
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: EnemyStop
   itemCount: 0
-  itemIconSPrite: {fileID: 0}
-  eventName: 
+  itemIconSPrite: {fileID: 21300000, guid: fdce4ad514383914ca80b915f91d75c0, type: 3}
+  eventName: using_enemystop

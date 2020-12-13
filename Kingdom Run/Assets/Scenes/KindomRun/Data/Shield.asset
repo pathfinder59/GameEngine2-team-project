@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f7208363702bd64a9f396e94c12c171, type: 3}
   m_Name: Shield
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Shield
   itemCount: 0
-  itemIconSPrite: {fileID: 0}
-  eventName: 
+  itemIconSPrite: {fileID: 21300000, guid: 29bdfba0d76f32c42883f2c65edb2e16, type: 3}
+  eventName: using_shield

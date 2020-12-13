@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f7208363702bd64a9f396e94c12c171, type: 3}
   m_Name: Heal
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Heal
   itemCount: 0
-  itemIconSPrite: {fileID: 0}
-  eventName: 
+  itemIconSPrite: {fileID: 21300000, guid: 72fded4c4a014904d8d6c6823527aa26, type: 3}
+  eventName: using_heal
