@@ -20,6 +20,7 @@ namespace Scene.Ui
         }
         private void SpawnPlayingScene(object obj)
         {
+            ObjectPoolManager.Instance.Spawn("Items");
         }
         private void Hide(object obj) => gameObject.SetActive(false);
     }

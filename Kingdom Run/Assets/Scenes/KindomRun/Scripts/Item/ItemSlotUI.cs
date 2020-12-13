@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KPU.Manager;
+using System;
 using System.ComponentModel;
 using TMPro;
 using UnityEditor;
@@ -12,7 +13,15 @@ namespace Scenes.KindomRun.Scripts.Item
         [SerializeField] private Image iconImage;
         [SerializeField] private TextMeshProUGUI itemCountText;
         [SerializeField] private TextMeshProUGUI itemNameText;
-        
+
+        private void Start()
+        {
+            EventManager.On("game_ended", Hide);
+        }
+        private void Hide(object obj)
+        {
+            gameObject.SetActive(false);
+        }
         public Sprite IconImage
         {
             set => iconImage.sprite = value;

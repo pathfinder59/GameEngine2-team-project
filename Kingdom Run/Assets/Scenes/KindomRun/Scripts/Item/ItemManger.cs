@@ -19,7 +19,14 @@ namespace Scenes.KindomRun.Scripts.Item
         {
             _items = new Dictionary<string, List<Item>>();
         }
-
+        private void Start()
+        {
+            EventManager.On("game_ended", ResetList);
+        }
+        private void ResetList(object obj)
+        {
+            _items.Clear();
+        }
         public void AddItem(string itemName)
         {
             var founded = itemDatabase.items.FirstOrDefault(Item => Item.itemName == itemName);
@@ -31,8 +38,8 @@ namespace Scenes.KindomRun.Scripts.Item
                 _items.Add(itemName, new List<Item>());
             }
             _items[itemName].Add(founded);
-
-            var slotUi = targetRectTransform.GetComponentsInChildren<ItemSlotUI>();
+            
+            var slotUi = targetRectTransform.GetComponentsInChildren<ItemSlotUI>(true);
             var existedSlot = slotUi.FirstOrDefault(slot => slot.ItemNameText == itemName);
 
             ItemSlotUI itemSlotUi;
@@ -45,6 +52,7 @@ namespace Scenes.KindomRun.Scripts.Item
             }
             else
             {
+                existedSlot.gameObject.SetActive(true);
                 itemSlotUi = existedSlot.GetComponent<ItemSlotUI>();
             }
             
