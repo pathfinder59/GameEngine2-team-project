@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f7208363702bd64a9f396e94c12c171, type: 3}
-  m_Name: EnemyStop 1
+  m_Name: EnemyStop
   m_EditorClassIdentifier: 
   itemName: 
   itemCount: 0
