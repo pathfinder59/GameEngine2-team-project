@@ -14,8 +14,8 @@
         private PlayerState _state;
         private Coroutine _damageRoutine;
         private bool _isdamagable;
+        private bool _isShield = false;
         private SkinnedMeshRenderer _renderer;
-
         public PlayerState State => _state;
         public float Hp => stat.Hp;
         public float MaxHp => stat.MaxHp;
@@ -26,6 +26,8 @@
         private void Start()
         {
             EventManager.On("game_ended", Hide);
+            EventManager.On("using_heal", OnUseHeal);
+            EventManager.On("using_shield", OnUseShield);
         }
         private void Awake()
         {
@@ -73,7 +75,13 @@
         public void Damage(float damageAmount)
         {
             if (!_isdamagable) return;
-            _damageRoutine = StartCoroutine(DamageRoutine(damageAmount));
+            
+            if (!_isShield)
+                _damageRoutine = StartCoroutine(DamageRoutine(damageAmount));
+            else
+            {
+                StartCoroutine(ShieldRoutine());
+            }
         }
 
         private IEnumerator DamageRoutine(float damageAmount)
@@ -89,8 +97,27 @@
 
            // material.color = defaultColor;
             _isdamagable = true;
+            noDamageTime = 0.5f;
         }
 
         private void Hide(object obj) => gameObject.SetActive(false);
+        
+        private void OnUseHeal(object obj)
+        {
+            stat.AddHp(20); // 20 회복
+        }
+        
+        private void OnUseShield(object obj)
+        {
+            _isShield = true;
+            noDamageTime = 2.0f;
+        }
+
+        IEnumerator ShieldRoutine()
+        {
+            yield return new WaitForSeconds(noDamageTime);
+            _isShield = false;
+            noDamageTime = 0.5f;
+        }
     }
 }
