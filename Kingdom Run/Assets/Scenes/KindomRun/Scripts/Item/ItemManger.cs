@@ -81,7 +81,7 @@ namespace Scenes.KindomRun.Scripts.Item
             }
             else
             {
-                Destroy(existedSlot.gameObject);
+                existedSlot.gameObject.SetActive(false);
             }
         }
         
