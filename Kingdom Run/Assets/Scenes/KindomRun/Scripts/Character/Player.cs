@@ -9,7 +9,8 @@
     {
         [SerializeField] private Stat stat;
         [SerializeField] private float noDamageTime = 0.5f;
-
+        [SerializeField] private GameObject aura_particle;
+        
         private NavMeshAgent _agent;
         private PlayerState _state;
         private Coroutine _damageRoutine;
@@ -19,8 +20,9 @@
         public PlayerState State => _state;
         public float Hp => stat.Hp;
         public float MaxHp => stat.MaxHp;
-
-
+        private float shieldTime = 2.0f;
+        private Coroutine _shieldRoutine;
+        
         public Stat Stat => stat;
 
         private void Start()
@@ -33,6 +35,7 @@
         {
             //_agent = GetComponent<NavMeshAgent>();
             _renderer = GetComponent<SkinnedMeshRenderer>();
+            aura_particle.SetActive(false);
         }
 
         private void OnEnable()
@@ -75,12 +78,16 @@
         public void Damage(float damageAmount)
         {
             if (!_isdamagable) return;
-            
+
             if (!_isShield)
+            {
+                if (_shieldRoutine != null)
+                    StopCoroutine(_shieldRoutine);
                 _damageRoutine = StartCoroutine(DamageRoutine(damageAmount));
+            }
             else
             {
-                StartCoroutine(ShieldRoutine());
+                _shieldRoutine = StartCoroutine(ShieldRoutine());
             }
         }
 
@@ -110,14 +117,14 @@
         private void OnUseShield(object obj)
         {
             _isShield = true;
-            noDamageTime = 2.0f;
+            aura_particle.SetActive(true);
         }
 
         IEnumerator ShieldRoutine()
         {
-            yield return new WaitForSeconds(noDamageTime);
+            yield return new WaitForSeconds(shieldTime);
             _isShield = false;
-            noDamageTime = 0.5f;
+            aura_particle.SetActive(false);
         }
     }
 }
