@@ -41,12 +41,15 @@
         private void OnEnable()
         {
             _isdamagable = true;
+            _isShield = false;
             stat.AddHp(stat.MaxHp);
+            aura_particle.SetActive(false);
         }
 
         private void OnDisable()
         {
             if (_damageRoutine != null) StopCoroutine(_damageRoutine);
+            if (_shieldRoutine != null) StopCoroutine(_shieldRoutine);
         }
 
         private void Update()
